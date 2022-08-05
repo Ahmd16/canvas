@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="canv.css">
+    <title>canvas form</title>
+</head>
+<body>
+    <div class="regform"> <h2>UPLOAD AND DOWNLOAD FROM CANVAS</h2> </div>
+    <div class="main">   
+    <form>
+           <div class="form-co">
+              <label for="formGroupExampleInput">Enter Header </label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter text here...">
+            </div>
+            <div class="form-group">
+              <label for="formGroupExampleInput2">Enter Footer </label>
+              <input type="text" class="form-control-1" id="formGroupExampleInput2" placeholder="Enter text here...">
+            </div>
+            <div class="form-text"> <p>Upload Image</p>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+           </div>
+          </form>
+    <section>
+        <div class="canvas">
+            
+            <canvas id="myCanvas" width="350" height="250" style="border:1px solid #000000;">
+    
+                <img id="scream"  src=""  width="220" height="277" alt="The scream">    
+                <p>this is a picture</p>
+            </canvas>
+                <script>
+                    window.onload = function() {
+          var canvas = document.getElementById("myCanvas");
+          var ctx = canvas.getContext("2d");
+          var img = document.getElementById("scream");
+          ctx.drawImage(img, 10, 10);
+        
+        };
+                </script>
+        </div>
+    </section>
+    <div>
+        <button type="button" class="btn btn-primary btn-lg">DOWNNLOAD NOW</button>         
+      </div>
+    </div>
+    
+</body>
+</html>

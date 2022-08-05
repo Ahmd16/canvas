@@ -1,0 +1,66 @@
+.regform{
+    width: 800px;
+    background-color:mintcream;
+    margin: auto;
+    padding: 10px 0px 0px 10px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+.main{
+    background-color:mintcream;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.form-text{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 400px;
+    margin-left: 5px;
+}
+.form-control-file{
+    width: 255px;
+}
+.form-co{
+    margin-top: 30px;
+    margin-bottom:20px ;
+    font-size: 18px;
+    width: 125%;
+    text-align: left;
+    margin-left: 5px;   
+}
+.form-control{
+    position: relative;
+    left: 65px;
+    padding: 5px 77px ;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.form-group{
+    margin-top: 15px;
+    margin-bottom:20px ;
+    font-size: 18px;
+    width: 125%;
+    text-align: left;
+    margin-left: 5px;
+}
+.form-control-1{
+    position: relative;
+    left: 70px;
+    padding: 5px 77px ;
+    line-height: 20px;
+    border-radius: 3px;
+}
+.btn-primary btn-lg{
+    box-sizing: border-box;
+    border-radius: 0px;
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.canvas{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
